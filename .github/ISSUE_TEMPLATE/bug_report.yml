@@ -1,0 +1,39 @@
+name: Bug report
+description: Something in Wild Lens isn't working right
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping make Wild Lens better! Please don't post personal information or purchase details here; issues are public.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen again?
+      placeholder: "1. Start mission 3, Big Cat\n2. Sneak up the ridge\n3. ..."
+  - type: input
+    id: mode
+    attributes:
+      label: Mission
+      placeholder: "Mission 9 Night Shift, free roam after Chapter 2..."
+  - type: input
+    id: device
+    attributes:
+      label: Phone model and Android version
+      placeholder: "Pixel 8, Android 15"
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Shown on the game's page in Google Play (About this game)
+  - type: dropdown
+    id: graphics
+    attributes:
+      label: Graphics setting
+      options: ["Low", "Medium", "High", "Not sure"]

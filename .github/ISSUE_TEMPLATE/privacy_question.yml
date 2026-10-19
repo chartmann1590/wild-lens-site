@@ -1,0 +1,13 @@
+name: Privacy or data question
+description: Ask about privacy, ads or deleting your data
+labels: ["privacy"]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public: please don't include personal information, your advertising ID or purchase details. Our privacy policy: https://chartmann1590.github.io/wild-lens-site/privacy/ and data deletion page: https://chartmann1590.github.io/wild-lens-site/delete/"
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true

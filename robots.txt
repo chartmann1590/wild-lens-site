@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chartmann1590.github.io/wild-lens-site/sitemap.xml
