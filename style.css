@@ -70,3 +70,5 @@ nav a{color:var(--muted);text-decoration:none;font-weight:600;font-size:14px;mar
 .hero .bg.drawn:before{content:"";position:absolute;right:-120px;top:-120px;width:520px;height:520px;border-radius:50%;border:2px solid rgba(217,164,65,.22);box-shadow:0 0 0 60px rgba(217,164,65,.04),0 0 0 120px rgba(217,164,65,.025)}
 .hero .bg.drawn:after{content:"";position:absolute;right:70px;top:70px;width:140px;height:140px;border-radius:50%;background:rgba(217,164,65,.16)}
 @media(max-width:640px){.hero .bg.drawn:before{width:300px;height:300px;right:-110px;top:-90px}.hero .bg.drawn:after{width:70px;height:70px;right:20px;top:30px}}
+
+.video{position:relative;width:100%;max-width:960px;margin:0 auto;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:#000;box-shadow:0 10px 30px rgba(0,0,0,.3)}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
